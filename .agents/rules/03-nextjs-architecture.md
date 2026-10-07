@@ -149,18 +149,12 @@ export async function POST(request: Request) {
     const result = await createProduct(body); // all logic lives in lib/
 
     if (!result.success) {
-      return Response.json(
-        { success: false, message: result.message },
-        { status: 400 },
-      );
+      return Response.json({ success: false, message: result.message }, { status: 400 });
     }
     return Response.json({ success: true, data: result.data }, { status: 201 });
   } catch (error) {
     console.error("[POST /api/products]", error);
-    return Response.json(
-      { success: false, message: "Something went wrong" },
-      { status: 500 },
-    );
+    return Response.json({ success: false, message: "Something went wrong" }, { status: 500 });
   }
 }
 ```
@@ -187,13 +181,7 @@ export async function POST(request: Request) {
 // app/dashboard/error.tsx
 "use client";
 
-export default function DashboardError({
-  error,
-  reset,
-}: {
-  error: Error;
-  reset: () => void;
-}) {
+export default function DashboardError({ error, reset }: { error: Error; reset: () => void }) {
   return (
     <div>
       <p>Something went wrong loading the dashboard.</p>
