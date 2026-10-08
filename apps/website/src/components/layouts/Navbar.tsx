@@ -345,7 +345,7 @@ export function Navbar() {
 
               {isLocationOpen && (
                 <div className="absolute right-0 top-full mt-2 w-48 bg-white rounded-2xl shadow-xl border border-slate-100 p-2 z-50 animate-in fade-in duration-150">
-                  <div className="px-3 py-1.5 text-[11px] font-bold text-slate-400 uppercase tracking-wider">Select Your City</div>
+                  <div className="px-3 py-1.5 text-[11px] font-medium text-black tracking-wider">Select Your City</div>
                   {["Karachi", "Lahore", "Islamabad", "Rawalpindi", "Faisalabad", "Multan", "Peshawar"].map((city) => (
                     <button
                       key={city}
@@ -650,4 +650,5 @@ export function Navbar() {
     </header>
   );
 }
+
 export default Navbar;
