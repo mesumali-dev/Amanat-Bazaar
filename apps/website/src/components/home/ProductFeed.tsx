@@ -26,7 +26,7 @@ const INITIAL_CATALOG: Product[] = [
     rating: 4.8,
     reviews: 210,
     seller: "Gadget Hub",
-    image: "/home/products/headphones.png",
+    image: "/home/products/headphones.avif",
   },
   {
     id: "p2",
@@ -37,7 +37,7 @@ const INITIAL_CATALOG: Product[] = [
     rating: 4.5,
     reviews: 142,
     seller: "Style Hub",
-    image: "/home/products/sunglasses.png",
+    image: "/home/products/sunglasses.avif",
   },
   {
     id: "p3",
@@ -48,7 +48,7 @@ const INITIAL_CATALOG: Product[] = [
     rating: 4.7,
     reviews: 96,
     seller: "Beauty Corner",
-    image: "/home/products/perfume.png",
+    image: "/home/products/perfume.avif",
   },
   {
     id: "p4",
@@ -59,7 +59,7 @@ const INITIAL_CATALOG: Product[] = [
     rating: 4.6,
     reviews: 188,
     seller: "Gadget Hub",
-    image: "/home/products/smartwatch.png",
+    image: "/home/products/smartwatch.avif",
   },
   {
     id: "p5",
@@ -70,7 +70,7 @@ const INITIAL_CATALOG: Product[] = [
     rating: 4.9,
     reviews: 342,
     seller: "Mobile Zone",
-    image: "/home/products/iphone.png",
+    image: "/home/products/iphone.avif",
   },
   {
     id: "p6",
@@ -81,7 +81,7 @@ const INITIAL_CATALOG: Product[] = [
     rating: 4.5,
     reviews: 76,
     seller: "Fashion Point",
-    image: "/home/products/shoes.png",
+    image: "/home/products/shoes.avif",
   },
   {
     id: "p7",
@@ -92,7 +92,7 @@ const INITIAL_CATALOG: Product[] = [
     rating: 4.6,
     reviews: 89,
     seller: "Style Hub",
-    image: "/home/products/backpack.png",
+    image: "/home/products/backpack.avif",
   },
   {
     id: "p8",
@@ -103,7 +103,7 @@ const INITIAL_CATALOG: Product[] = [
     rating: 4.7,
     reviews: 124,
     seller: "Tech World",
-    image: "/home/products/airpods.png",
+    image: "/home/products/airpods.avif",
   },
   {
     id: "p9",
@@ -114,7 +114,7 @@ const INITIAL_CATALOG: Product[] = [
     rating: 4.8,
     reviews: 112,
     seller: "Home Essentials",
-    image: "/home/products/kettle.png",
+    image: "/home/products/kettle.avif",
   },
   {
     id: "p10",
@@ -125,7 +125,7 @@ const INITIAL_CATALOG: Product[] = [
     rating: 4.6,
     reviews: 88,
     seller: "Tech World",
-    image: "/home/products/airpods.png",
+    image: "/home/products/airpods.avif",
   },
 ];
 
@@ -139,7 +139,7 @@ const MORE_PRODUCTS_POOL: Product[] = [
     rating: 4.6,
     reviews: 95,
     seller: "Gadget Hub",
-    image: "/home/products/smartwatch.png",
+    image: "/home/products/smartwatch.avif",
   },
   {
     id: "p12",
@@ -150,7 +150,7 @@ const MORE_PRODUCTS_POOL: Product[] = [
     rating: 4.7,
     reviews: 160,
     seller: "Style Hub",
-    image: "/home/products/sunglasses.png",
+    image: "/home/products/sunglasses.avif",
   },
   {
     id: "p13",
@@ -161,7 +161,7 @@ const MORE_PRODUCTS_POOL: Product[] = [
     rating: 4.8,
     reviews: 74,
     seller: "Beauty Corner",
-    image: "/home/products/perfume.png",
+    image: "/home/products/perfume.avif",
   },
   {
     id: "p14",
@@ -172,7 +172,7 @@ const MORE_PRODUCTS_POOL: Product[] = [
     rating: 4.6,
     reviews: 118,
     seller: "Fashion Point",
-    image: "/home/products/shoes.png",
+    image: "/home/products/shoes.avif",
   },
   {
     id: "p15",
@@ -183,7 +183,7 @@ const MORE_PRODUCTS_POOL: Product[] = [
     rating: 4.7,
     reviews: 104,
     seller: "Style Hub",
-    image: "/home/products/backpack.png",
+    image: "/home/products/backpack.avif",
   },
 ];
 

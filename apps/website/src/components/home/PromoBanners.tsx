@@ -46,7 +46,7 @@ export default function PromoBanners() {
 
           {/* Right Floating Product Image */}
           <div className="w-36 h-36 sm:w-44 sm:h-44 shrink-0 flex items-center justify-center relative">
-            <img src="/home/products/headphones.png" alt="Studio Acoustics" className="w-full h-full object-contain drop-shadow-lg group-hover:scale-108 transition-transform duration-500" />
+            <img src="/home/products/headphones.avif" alt="Studio Acoustics" className="w-full h-full object-contain drop-shadow-lg group-hover:scale-108 transition-transform duration-500" />
           </div>
         </div>
 
@@ -74,7 +74,7 @@ export default function PromoBanners() {
 
           {/* Right Floating Product Image */}
           <div className="w-36 h-36 sm:w-44 sm:h-44 shrink-0 flex items-center justify-center relative">
-            <img src="/home/products/shoes.png" alt="Urban Footwear" className="w-full h-full object-contain drop-shadow-lg group-hover:scale-108 transition-transform duration-500" />
+            <img src="/home/products/shoes.avif" alt="Urban Footwear" className="w-full h-full object-contain drop-shadow-lg group-hover:scale-108 transition-transform duration-500" />
           </div>
         </div>
       </div>

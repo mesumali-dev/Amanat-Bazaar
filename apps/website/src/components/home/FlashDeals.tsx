@@ -11,7 +11,7 @@ const PRODUCTS = [
     rating: 4.7,
     reviews: 124,
     seller: "Tech World",
-    image: "/home/products/airpods.png",
+    image: "/home/products/airpods.avif",
   },
   {
     title: "Smart Watch",
@@ -21,7 +21,7 @@ const PRODUCTS = [
     rating: 4.6,
     reviews: 98,
     seller: "Gadget Hub",
-    image: "/home/products/smartwatch.png",
+    image: "/home/products/smartwatch.avif",
   },
   {
     title: "Running Shoes",
@@ -31,7 +31,7 @@ const PRODUCTS = [
     rating: 4.5,
     reviews: 76,
     seller: "Fashion Point",
-    image: "/home/products/shoes.png",
+    image: "/home/products/shoes.avif",
   },
   {
     title: "Electric Kettle",
@@ -41,7 +41,7 @@ const PRODUCTS = [
     rating: 4.8,
     reviews: 112,
     seller: "Home Essentials",
-    image: "/home/products/kettle.png",
+    image: "/home/products/kettle.avif",
   },
   {
     title: "Laptop Backpack",
@@ -51,7 +51,7 @@ const PRODUCTS = [
     rating: 4.6,
     reviews: 89,
     seller: "Style Hub",
-    image: "/home/products/backpack.png",
+    image: "/home/products/backpack.avif",
   },
 ];
 
