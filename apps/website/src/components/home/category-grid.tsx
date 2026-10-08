@@ -1,4 +1,3 @@
-import React from "react";
 import Link from "next/link";
 import { Smartphone, Shirt, Home as HomeIcon, HeartPulse, ShoppingBasket, Dumbbell, Gamepad2, Grid, ChevronRight } from "lucide-react";
 
@@ -13,6 +12,7 @@ const CATEGORIES = [
   { name: "More Categories", icon: Grid, bg: "bg-slate-100" },
 ];
 
+// <======< Category Grid Component >======>
 export default function CategoryGrid() {
   return (
     <section className="space-y-4">

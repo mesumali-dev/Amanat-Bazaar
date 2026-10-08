@@ -390,7 +390,7 @@ export function Navbar() {
                   <div className="max-h-56 overflow-y-auto divide-y divide-slate-100 space-y-2 pr-1">
                     {cartItems.map((item) => (
                       <div key={item.id} className="pt-2.5 first:pt-0 flex items-center gap-3">
-                        <img src={item.image} alt={item.name} className="w-12 h-12 object-cover rounded-lg border border-slate-100 shrink-0" />
+                        <Image src={item.image} alt={item.name} width={48} height={48} className="w-12 h-12 object-cover rounded-lg border border-slate-100 shrink-0" />
                         <div className="flex-1 min-w-0">
                           <h5 className="text-xs font-semibold text-slate-800 truncate">{item.name}</h5>
                           <div className="flex items-center justify-between mt-1">

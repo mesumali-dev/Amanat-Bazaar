@@ -1,5 +1,4 @@
-import React from "react";
-import Navbar from "@/components/layouts/Navbar";
+import Navbar from "@/components/common/navbar";
 import { HeroBanner, CategoryGrid, FlashDeals, PromoBanners, ProductFeed } from "@/components/home";
 
 export default function Home() {

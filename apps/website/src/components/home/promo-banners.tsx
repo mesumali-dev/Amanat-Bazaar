@@ -1,7 +1,8 @@
-import React from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
+// <======< Promo Banners Component >======>
 export default function PromoBanners() {
   return (
     <section className="space-y-4">
@@ -44,9 +45,8 @@ export default function PromoBanners() {
             </div>
           </div>
 
-          {/* Right Floating Product Image */}
           <div className="w-36 h-36 sm:w-44 sm:h-44 shrink-0 flex items-center justify-center relative">
-            <img src="/home/products/headphones.avif" alt="Studio Acoustics" className="w-full h-full object-contain drop-shadow-lg group-hover:scale-108 transition-transform duration-500" />
+            <Image src="/home/products/headphones.avif" alt="Studio Acoustics" fill sizes="(max-width: 640px) 144px, 176px" className="object-contain drop-shadow-lg group-hover:scale-108 transition-transform duration-500" />
           </div>
         </div>
 
@@ -72,9 +72,8 @@ export default function PromoBanners() {
             </div>
           </div>
 
-          {/* Right Floating Product Image */}
           <div className="w-36 h-36 sm:w-44 sm:h-44 shrink-0 flex items-center justify-center relative">
-            <img src="/home/products/shoes.avif" alt="Urban Footwear" className="w-full h-full object-contain drop-shadow-lg group-hover:scale-108 transition-transform duration-500" />
+            <Image src="/home/products/shoes.avif" alt="Urban Footwear" fill sizes="(max-width: 640px) 144px, 176px" className="object-contain drop-shadow-lg group-hover:scale-108 transition-transform duration-500" />
           </div>
         </div>
       </div>
